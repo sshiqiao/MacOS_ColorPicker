@@ -2,27 +2,21 @@
 //  AppDelegate.m
 //  ColorPicker
 //
-//  Created by Start on 2016/12/14.
+//  Created by Start on 2016/10/30.
 //  Copyright © 2016年 Start. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
-
-@property (weak) IBOutlet NSWindow *window;
-@end
-
+#import "ColorPickerWindowController.h"
+#import "Color.h"
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    ColorPickerWindowController *colorPickerWindow = [[ColorPickerWindowController alloc] initWithWindowNibName:@"ColorPickerWindowController"];
+    colorPickerWindow.selectedColorHandler = ^(Color *color){
+        NSLog(@"SelectedColor:#%@",color.HEXColorVaule);
+    };
+    [NSApp runModalForWindow:[colorPickerWindow window]];
 }
-
-
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
-}
-
 
 @end

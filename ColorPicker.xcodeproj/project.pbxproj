@@ -11,6 +11,14 @@
 		C9D995D51E01309F009BDBDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D995D41E01309F009BDBDF /* main.m */; };
 		C9D995D71E01309F009BDBDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D995D61E01309F009BDBDF /* Assets.xcassets */; };
 		C9D995DA1E0130A1009BDBDF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9D995D81E0130A1009BDBDF /* MainMenu.xib */; };
+		C9D995E81E0146AD009BDBDF /* ColorPickerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D995E61E0146AD009BDBDF /* ColorPickerWindowController.m */; };
+		C9D995E91E0146AD009BDBDF /* ColorPickerWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9D995E71E0146AD009BDBDF /* ColorPickerWindowController.xib */; };
+		C9D995EC1E0146D2009BDBDF /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D995EB1E0146D2009BDBDF /* Color.m */; };
+		C9D995EF1E0146F2009BDBDF /* ColorPickerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D995EE1E0146F2009BDBDF /* ColorPickerViewModel.m */; };
+		C9D995F21E014720009BDBDF /* ColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D995F11E014720009BDBDF /* ColorPicker.m */; };
+		C9D995F61E01481E009BDBDF /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D995F51E01481E009BDBDF /* Utils.m */; };
+		C9D995FC1E0149FB009BDBDF /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D995FB1E0149FB009BDBDF /* BaseView.m */; };
+		C9D995FF1E01BED5009BDBDF /* screen_shoot.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D995FE1E01BED5009BDBDF /* screen_shoot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +29,21 @@
 		C9D995D61E01309F009BDBDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9D995D91E0130A1009BDBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C9D995DB1E0130A1009BDBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D995E51E0146AD009BDBDF /* ColorPickerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerWindowController.h; sourceTree = "<group>"; };
+		C9D995E61E0146AD009BDBDF /* ColorPickerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerWindowController.m; sourceTree = "<group>"; };
+		C9D995E71E0146AD009BDBDF /* ColorPickerWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorPickerWindowController.xib; sourceTree = "<group>"; };
+		C9D995EA1E0146D2009BDBDF /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		C9D995EB1E0146D2009BDBDF /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		C9D995ED1E0146F2009BDBDF /* ColorPickerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewModel.h; sourceTree = "<group>"; };
+		C9D995EE1E0146F2009BDBDF /* ColorPickerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewModel.m; sourceTree = "<group>"; };
+		C9D995F01E014720009BDBDF /* ColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPicker.h; sourceTree = "<group>"; };
+		C9D995F11E014720009BDBDF /* ColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPicker.m; sourceTree = "<group>"; };
+		C9D995F41E01481E009BDBDF /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		C9D995F51E01481E009BDBDF /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		C9D995F71E01487F009BDBDF /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		C9D995FA1E0149FB009BDBDF /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		C9D995FB1E0149FB009BDBDF /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		C9D995FE1E01BED5009BDBDF /* screen_shoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_shoot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +60,7 @@
 		C9D995C41E01309E009BDBDF = {
 			isa = PBXGroup;
 			children = (
+				C9D995F81E01499C009BDBDF /* Common */,
 				C9D995CF1E01309F009BDBDF /* ColorPicker */,
 				C9D995CE1E01309E009BDBDF /* Products */,
 			);
@@ -53,6 +77,10 @@
 		C9D995CF1E01309F009BDBDF /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				C9D995E11E01462A009BDBDF /* WindowController */,
+				C9D995E41E014656009BDBDF /* View */,
+				C9D995E21E014641009BDBDF /* Model */,
+				C9D995E31E01464C009BDBDF /* ViewModel */,
 				C9D995D01E01309F009BDBDF /* AppDelegate.h */,
 				C9D995D11E01309F009BDBDF /* AppDelegate.m */,
 				C9D995D61E01309F009BDBDF /* Assets.xcassets */,
@@ -69,6 +97,82 @@
 				C9D995D41E01309F009BDBDF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9D995E11E01462A009BDBDF /* WindowController */ = {
+			isa = PBXGroup;
+			children = (
+				C9D995E51E0146AD009BDBDF /* ColorPickerWindowController.h */,
+				C9D995E61E0146AD009BDBDF /* ColorPickerWindowController.m */,
+				C9D995E71E0146AD009BDBDF /* ColorPickerWindowController.xib */,
+			);
+			name = WindowController;
+			sourceTree = "<group>";
+		};
+		C9D995E21E014641009BDBDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9D995EA1E0146D2009BDBDF /* Color.h */,
+				C9D995EB1E0146D2009BDBDF /* Color.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C9D995E31E01464C009BDBDF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9D995ED1E0146F2009BDBDF /* ColorPickerViewModel.h */,
+				C9D995EE1E0146F2009BDBDF /* ColorPickerViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9D995E41E014656009BDBDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9D995F01E014720009BDBDF /* ColorPicker.h */,
+				C9D995F11E014720009BDBDF /* ColorPicker.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C9D995F31E01480A009BDBDF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C9D995F41E01481E009BDBDF /* Utils.h */,
+				C9D995F51E01481E009BDBDF /* Utils.m */,
+				C9D995F71E01487F009BDBDF /* CommonMacro.h */,
+			);
+			name = Utils;
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		C9D995F81E01499C009BDBDF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C9D995FD1E01BEBE009BDBDF /* ImageRes */,
+				C9D995F91E0149A7009BDBDF /* View */,
+				C9D995F31E01480A009BDBDF /* Utils */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		C9D995F91E0149A7009BDBDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9D995FA1E0149FB009BDBDF /* BaseView.h */,
+				C9D995FB1E0149FB009BDBDF /* BaseView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C9D995FD1E01BEBE009BDBDF /* ImageRes */ = {
+			isa = PBXGroup;
+			children = (
+				C9D995FE1E01BED5009BDBDF /* screen_shoot.png */,
+			);
+			name = ImageRes;
+			path = ColorPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +233,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D995E91E0146AD009BDBDF /* ColorPickerWindowController.xib in Resources */,
 				C9D995D71E01309F009BDBDF /* Assets.xcassets in Resources */,
 				C9D995DA1E0130A1009BDBDF /* MainMenu.xib in Resources */,
+				C9D995FF1E01BED5009BDBDF /* screen_shoot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +248,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9D995D51E01309F009BDBDF /* main.m in Sources */,
+				C9D995EC1E0146D2009BDBDF /* Color.m in Sources */,
 				C9D995D21E01309F009BDBDF /* AppDelegate.m in Sources */,
+				C9D995FC1E0149FB009BDBDF /* BaseView.m in Sources */,
+				C9D995E81E0146AD009BDBDF /* ColorPickerWindowController.m in Sources */,
+				C9D995EF1E0146F2009BDBDF /* ColorPickerViewModel.m in Sources */,
+				C9D995F61E01481E009BDBDF /* Utils.m in Sources */,
+				C9D995F21E014720009BDBDF /* ColorPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
